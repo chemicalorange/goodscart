@@ -1,0 +1,26 @@
+.wrapper {
+  border: 1px solid #000000;
+  width: 100%;
+  padding: 20px 27px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.total {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    padding: 10px 20px;
+    background: none;
+    border: 1px solid black;
+  }
+}
